@@ -1,0 +1,14 @@
+
+
+.mainContainer {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    gap: 10px;
+}
+
+.mainContainer:hover {
+    opacity: 0.8;
+}

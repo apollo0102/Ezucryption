@@ -1,0 +1,31 @@
+# This workflow will access Dev server and pull the latest changes on dev branch and restart the application
+
+name: Deploy Dev branch to Dev server
+
+on:
+  push:
+    branches: dev
+
+jobs:
+  build:
+
+    runs-on: develop
+
+    steps: 
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Run the deployment script for dev server 
+      run: |
+           
+           echo "Installing new pakages"
+           sudo npm install 
+          
+           echo "Build Application"
+           yarn build
+          
+           echo "Restart Application Server"
+           # yarn run start:pm2
+           pm2 restart Backend_Dev --update-env
+          
+           echo "Deployment Completed"

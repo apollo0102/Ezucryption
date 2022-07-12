@@ -1,0 +1,123 @@
+.about_container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 16px 54px 0px 392px;
+
+  .stats {
+    display: flex;
+    justify-content: flex-end;
+
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: $dark-70;
+      &:first-child {
+        padding-right: 32px;
+      }
+    }
+    .likes{
+      display: flex;
+
+      b{
+        font-weight: 700;
+        margin-left: 12px;
+        font-family: 'Manrope';
+        font-size:14px;
+        color: '#616161'
+      }
+      span{
+        font-weight: 400;
+      }
+      img{
+        height: 17px;
+      }
+    }
+  }
+
+  .description {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'kern';
+    align-items: center;
+    padding: 16px 16px 16px 0px;
+    p {
+      font-style: italic;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+
+      color: $dark-30;
+    }
+  }
+  h2 {
+    margin-top: -24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+
+    img {
+      margin-left: 26px;
+    }
+  }
+
+  .status {
+    display: flex;
+    .active {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: $Success-40;
+      margin: 0px 5px;
+    }
+    .nonActive {
+      width: 14px;
+      height: 14px;
+      background: $Error-10;
+      border-radius: 50%;
+      margin: 0px 5px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: $dark;
+    }
+    
+  }
+
+  @media (max-width: $md) {
+    padding: 16px 54px 0px 262px;
+    h2 {
+      margin-top: 0;
+      font-size: 32px;
+    }
+  }
+  @media (max-width: $sm) {
+    padding: 16px 35px 0px 35px;
+    .stats {
+      flex-direction: column;
+      align-items: flex-end;
+
+      p {
+        width: 174px;
+        text-align: right;
+        &:first-child {
+          padding-right: 0px;
+          padding-bottom: 15px;
+        }
+      }
+    }
+    .description {
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 26px 16px 16px 0px;
+
+      img {
+        order: -1;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

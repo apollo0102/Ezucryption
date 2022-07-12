@@ -1,0 +1,16 @@
+.heading {
+  font-family: $haffer-xh-trial;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 24px;
+}
+
+.feeds-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}

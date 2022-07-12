@@ -1,0 +1,21 @@
+.header {
+  font-family: Kern;
+  font-size: 36px;
+  margin-bottom: 0.4rem;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 850px) {
+  .header {
+    text-align: left !important;
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    text-align: left !important;
+    font-size: 30px !important;
+  }
+}

@@ -1,0 +1,129 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.customTitleClass {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ssoText {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6f6f6f;
+}
+
+// personalDetailForm
+
+.titleText {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    color: #000000;
+}
+
+.descriptionText {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6f6f6f;
+}
+
+.optionsContainer {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.optionBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 7px 19px;
+    background: #f2edef;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.optionText {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+.otpText {
+    font-family: "Kern";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #0085ff;
+    cursor: pointer;
+}
+
+.activeOption {
+    border: 1px solid #9d5a63;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.signupContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+    @extend .ssoText
+    
+}
+.fpContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 600px) {
+    .noAccount{
+        display: none;
+    }
+}
+@media screen and (max-width: 900px) {
+    .noAccount{
+        display: none;
+    }
+}

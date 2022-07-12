@@ -1,0 +1,273 @@
+.hero-bg {
+  width: 100%;
+  height: 100%;
+  background: url("/images/vitamins/VITAMIND.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  color: white;
+  padding: 2rem 4rem;
+  min-width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.top-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  .logo {
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 66px;
+    padding-top: 4rem;
+    font-family: Haffer;
+  }
+
+  .enter {
+    font-family: Kern;
+    font-size: 37px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.coming-soon {
+  font-family: Kern;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0px;
+  text-align: right;
+  padding-right: 6vw;
+  margin-top: 35vw;
+}
+
+.desp-div {
+  margin-top: 10vw;
+
+  .white-line {
+    border-top: 1px solid white;
+    width: 10vw;
+    padding-bottom: 0.6rem;
+  }
+  .text {
+    font-family: Kern;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .sub-text {
+    font-family: Kern;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 32px;
+  }
+}
+
+.form-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 12vw;
+  
+  .header {
+    font-family: Kern;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+    text-align: left;
+  }
+  
+  .form {
+    width: 25vw;
+    border-bottom: 1px solid white;
+  }
+  
+  .arrow {
+    font-size: 1.8rem;
+    color: white;
+    padding-bottom: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .hero-bg {
+    height: 1200px;
+    padding: 2rem 3rem;
+  }
+
+  .top-div {
+    .logo {
+      font-size: 60px;
+      padding-top: 3rem;
+    }
+
+    .enter {
+      font-size: 27px;
+      font-weight: 700;
+      padding-top: 0.8rem;
+    }
+  }
+
+  .coming-soon {
+    font-size: 30px;
+    padding-right: 2vw;
+    margin-top: 35vw;
+  }
+
+  .desp-div {
+    margin-top: 10vw;
+    .text {
+      font-size: 18px;
+    }
+
+    .sub-text {
+      font-size: 15px;
+    }
+  }
+
+  .form-div {
+    padding-left: 1rem;
+    .header {
+      font-size: 1.2rem;
+    }
+
+    .arrow {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .hero-bg {
+    height: 800px;
+    padding: 1.5rem 2rem;
+  }
+
+  .top-div {
+    align-items: center;
+    .logo {
+      font-size: 50px;
+      padding-top: 0rem;
+    }
+
+    .enter {
+      font-size: 25px;
+      padding-top: 0rem;
+    }
+  }
+
+  .coming-soon {
+    font-size: 25px;
+    padding-right: 0vw;
+    margin-top: 30vw;
+    text-align: left;
+    width: 20vw;
+    line-height: 1.8rem;
+  }
+
+  .desp-div {
+    padding-top: 2rem;
+    .white-line {
+      width: 14vw;
+    }
+    margin-top: 10vw;
+    .text {
+      font-size: 18px;
+    }
+
+    .sub-text {
+      font-size: 15px;
+    }
+  }
+
+  .form-div {
+    margin-top: 3rem;
+    padding-top: 0rem;
+    padding-left: 0vw;
+    padding-right: 3rem;
+    align-items: flex-end;
+    
+    .form {
+      width: 40vw;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero-bg {
+    height: 1427px;
+    padding: 1rem 1rem;
+    background: url("/images/vitamins/VITAMIND4--mobile.jpg");
+    background-size: cover;
+
+  }
+
+  .top-div {
+    // align-items: center;
+    flex-direction: column;
+    .logo {
+      font-size: 52px;
+      padding-top: 0rem;
+      text-align: center;
+    }
+
+    .enter {
+      font-size: 20px;
+      padding-top: 0rem;
+      align-self: flex-end;
+      margin-top: 1rem;
+    }
+  }
+
+  .coming-soon {
+    font-size: 37px;
+    font-family: kernBold;
+    margin-top: 50vw;
+    width: 70vw;
+    line-height: calc(37px * 1);
+  }
+
+  .desp-div {
+    margin-top: 20vw;
+    position: absolute;
+    bottom: 13rem;
+    .white-line {
+      width: 24vw;
+    }
+    .text {
+      font-size: 14px;
+    }
+
+    .sub-text {
+      font-size: 12px;
+    }
+  }
+
+  .form-div {
+    position: absolute;
+    bottom: 3rem;
+    width: 100%;
+
+    .form {
+      width: 100%;
+    }
+  }
+}

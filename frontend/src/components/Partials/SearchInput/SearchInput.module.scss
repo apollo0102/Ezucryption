@@ -1,0 +1,13 @@
+.form {
+  width: 100%;
+}
+
+.arrow {
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 600px) {
+  .arrow {
+    font-size: 1.5rem;
+  }
+}

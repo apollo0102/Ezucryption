@@ -1,0 +1,29 @@
+.profile_container {
+  max-width: 954px;
+  margin: 0 auto;
+  padding: 75px 35px 0px;
+  @media (max-width: $md) {
+    padding: 40px 35px 0px;
+  }
+
+  .all_tabs {
+    button {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      font-family: $haffer-xh-trial;
+      min-width: 0px;
+      text-transform: capitalize;
+      padding: 0;
+      margin-right: 40px;
+      color: $dark-20;
+      min-height: 0;
+      &:last-child {
+        margin-right: 0px;
+      }
+      @media (max-width: $md) {
+        margin-bottom: 9px;
+      }
+    }
+  }
+}

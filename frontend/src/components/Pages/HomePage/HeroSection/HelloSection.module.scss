@@ -1,0 +1,116 @@
+.hello-section-root {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.text-div {
+  .hello-text {
+    font-family: Kern;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #000000;
+    font-family: Kern;
+  }
+
+  .welcome-text {
+    font-family: Kern;
+    font-size: 3.3rem;
+    font-weight: 700;
+  }
+
+  .desp-text {
+    font-family: Kern;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-bottom: 0.8rem;
+  }
+}
+
+.join-com-div {
+}
+
+.image-div {
+  text-align: right;
+  max-width: 20rem;
+  width: 20rem;
+}
+
+@media only screen and (max-width: 1050px) {
+  .text-div {
+    .hello-text {
+      font-size: 2.3rem;
+    }
+
+    .welcome-text {
+      font-size: 3.3rem;
+
+      .acrp-text {
+        display: block;
+      }
+    }
+
+    .desp-text {
+      font-size: 1.3rem;
+    }
+  }
+  .image-div {
+    max-width: 18rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .join-com-div {
+    display: none;
+  }
+  .text-div {
+    .hello-text {
+      font-size: 3rem;
+    }
+
+    .welcome-text {
+      font-size: 4rem;
+      .acrp-text {
+        display: block;
+      }
+    }
+
+    .desp-text {
+      font-size: 1.9rem;
+    }
+  }
+  .image-div {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hello-section-root {
+    padding-left: 24px;
+  }
+  
+  .text-div {
+    .hello-text {
+      font-size:45px;
+    }
+
+    .welcome-text {
+      font-size: 42.1667px;
+      padding-bottom: 1rem;
+      font-weight: 700;
+      .acrp-text {
+        display: block;
+      }
+    }
+
+    .desp-text {
+      font-size: 1.3rem;
+      padding-bottom: 1rem;
+      letter-spacing: 0;
+      line-height: 42px;
+    }
+  }
+  .image-div {
+    max-width: 15rem;
+  }
+}

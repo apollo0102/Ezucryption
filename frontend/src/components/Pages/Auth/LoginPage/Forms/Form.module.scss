@@ -1,0 +1,63 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.customTitleClass {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ssoText {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6f6f6f;
+    cursor: pointer;
+}
+
+.fpContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.otpText {
+    font-family: "Kern";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #0085ff;
+    cursor: pointer;
+}
+
+.signupContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+    @extend .ssoText
+    
+}
+@media screen and (max-width: 600px) {
+    .noAccount{
+        display: none;
+    }
+}

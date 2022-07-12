@@ -1,0 +1,189 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    min-height: 90vh;
+    flex: 1;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #f7f9fa;
+    flex: 1;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 80px;
+    margin-top: 33.34px;
+}
+
+.logoText {
+    width: 169px;
+    height: 48px;
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}
+.customTitleClass {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.assetBoxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 132px 163px 5px 71px;
+    gap: 30px;
+}
+
+.joiningText {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #37352f;
+    width: 263px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.otpDescriptionText {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 440px;
+    margin: 40px auto 0 auto;
+    text-align: center;
+    color: #6F6F6F;
+
+}
+
+.otpDescriptionText span {
+    color: #0085ff !important;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px) {
+    .container {
+        background: #f7f9fa;
+    }
+    .joiningText{
+        width: auto;
+        font-size: 40px;
+    }
+    .otpDescriptionText{
+        width: auto;
+    }
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        flex: 1;
+    }
+    .leftMainContainer {
+        margin: 0px;
+    }
+    .leftContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #ffff;
+        flex: 1;
+        order: 2;
+        margin: 0px 80px 0px 80px;
+        padding-bottom: 80px;
+    }
+    .rightContainer {
+        display: flex;
+        background-color: #ffff;
+        flex-direction: column;
+        margin: 80px 80px 0px 80px;
+        flex: 1;
+        gap: 50px;
+        order: 1;
+        padding-bottom: 30px;
+        padding: 80px;
+    }
+    .logoContainer {
+        display: none;
+    }
+    .footerContainer {
+        margin: 0px 80px 0px 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        background: #f7f9fa;
+    }
+    .joiningText{
+        width: auto;
+    }
+    .otpDescriptionText{
+        width: auto;
+    }
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        flex: 1;
+    }
+    .leftMainContainer {
+        margin: 0px;
+    }
+    .leftContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #ffff;
+        flex: 1;
+        order: 2;
+        margin: 0px 20px 0px 20px;
+        padding-bottom: 20px;
+    }
+    .rightContainer {
+        display: flex;
+        background-color: #ffff;
+        flex-direction: column;
+        margin: 20px 20px 0px 20px;
+        flex: 1;
+        gap: 20px;
+        order: 1;
+        padding-bottom: 10px;
+        padding: 20px;
+    }
+    .logoContainer {
+        display: none;
+    }
+    .footerContainer {
+        margin: 0px 20px 0px 20px;
+    }
+}

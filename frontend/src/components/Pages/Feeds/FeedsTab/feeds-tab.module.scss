@@ -1,0 +1,14 @@
+.tab {
+  display: flex;
+
+  &__item {
+    &:first-child {
+      margin-left: 0;
+    }
+    list-style: none;
+    font-size: 24px;
+    margin-left: 2rem;
+    cursor: pointer;
+    color: #6f6f6f;
+  }
+}

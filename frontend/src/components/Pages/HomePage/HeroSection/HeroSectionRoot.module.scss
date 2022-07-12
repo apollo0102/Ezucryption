@@ -1,0 +1,36 @@
+.mobi-join {
+  display: none;
+  margin-top: 3rem;
+}
+
+.submit-div {
+  position: absolute;
+  bottom: -2vw;
+  right: 10vw;
+}
+
+@media screen and (max-width: 1050px) {
+  .submit-div {
+    position: absolute;
+    bottom: -13vw;
+    right: 15vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  .mobi-join {
+    display: block;
+    padding-left: 24px;
+  }
+
+  .submit-div {
+    position: relative;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .mobi-join {
+    display: block;
+  }
+}

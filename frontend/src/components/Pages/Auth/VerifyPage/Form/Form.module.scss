@@ -1,0 +1,122 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.customTitleClass {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ssoText {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6f6f6f;
+}
+
+// OptionForm
+
+.options {
+    background: #f2edef;
+    border: 1px solid #f5e9e4;
+    border-radius: 20px;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.optionText {
+    font-family: "Kern";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.optionsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.activeOption {
+    border: 1px solid #9d5a63;
+}
+
+
+.hyperLinkText {
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #3b99fc;
+}
+
+.skipText {
+    font-family: "Gilroy-SemiBold";
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #6f6f6f;
+    cursor: pointer;
+}
+
+.optionsImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: rgba(196, 196, 196, 0.1);
+    border: 1px solid #c3cbd4;
+    border-radius: 20px;
+    width: 220px;
+    height: 220px;
+}
+
+.activeOptionsImage {
+    background: rgba(195, 203, 212, 0.32);
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .options {
+        width: 136px;
+        height: 136px;
+        padding: 20px;
+    }
+    .optionsImage {
+        width: 220px;
+        height: 220px;
+        padding: 20px;
+    }
+}

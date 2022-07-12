@@ -1,0 +1,136 @@
+.join-com-root {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2rem;
+  max-width: 100%;
+  width: 100%;
+}
+
+.submit-artwork {
+  // display: flex;
+  // align-items: flex-end;
+  // width: 28rem;
+
+  .circle {
+    max-width: 8.25rem;
+    width: 8.25rem;
+    max-height: 8.25rem;
+    height: 8.25rem;
+    background: #eef8f3;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.5rem;
+    text-align: center;
+    box-shadow: 7.40006px 7.40006px 0px rgba(0, 0, 0, 0.2);
+    .crypto {
+      font-weight: 700;
+      font-size: 0.9rem;
+      margin: 0.3rem auto;
+    }
+
+    .curated {
+      font-size: 0.5rem;
+    }
+
+    .artist {
+      font-size: 0.4rem;
+      margin: 1rem auto;
+      color: #2f8be6;
+      cursor: pointer;
+    }
+  }
+
+  .text {
+    display: flex;
+    align-items: flex-end;
+    margin-left: -20px;
+    justify-content: space-around;
+    font-size: 10px;
+    font-family: Kern;
+    font-weight: 400;
+    letter-spacing: 0rem;
+    text-align: left;
+    color: #000000;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+
+  .icon {
+    margin-left: 0.1rem;
+    color: #d8d8d8;
+    width: 14.7px;
+    height: 14.7px;
+  }
+}
+
+.mobi-img {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) and (min-width: 900px) {
+  .submit-artwork {
+    width: 25rem;
+
+    .circle {
+      max-width: 7.5rem;
+      width: 7.5rem;
+      max-height: 7.5rem;
+      height: 7.5rem;
+      font-size: 0.4rem;
+      padding: 1.5rem 1rem 1rem;
+
+      .crypto {
+        font-size: 0.6rem;
+        margin: 0.2rem auto;
+      }
+
+      .curated {
+        font-size: 0.4rem;
+      }
+
+      .artist {
+        font-size: 0.3rem;
+        margin: 0.3rem auto;
+      }
+    }
+
+    .text {
+      font-size: 0.9rem;
+
+      .icon {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-left: 0.2rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .submit-artwork {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 24px;
+    .text {
+      margin-left: 24px;
+    }
+  }
+
+  .mobi-img {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .join-com-root {
+    flex-direction: column;
+  }
+  .mobi-img {
+    margin-top: 2rem;
+    max-width: 16rem;
+  }
+}

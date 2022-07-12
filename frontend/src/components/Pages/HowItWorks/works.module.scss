@@ -1,0 +1,331 @@
+/* //work */
+
+.accordion {
+  box-shadow: none;
+}
+
+.expandMoreIcon {
+  color: #4a4b57;
+  font-size: 2rem;
+}
+
+.item2 {
+  background: #e7e7e7;
+}
+
+.firstBox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.howItWorksCard_first {
+  padding: 1.5rem;
+  background: #e7e7e7;
+  height: 100%;
+  // border-radius: 5px;
+}
+
+.isfirstCardTextWork {
+  padding-bottom: 3.5rem;
+}
+
+.howItWorksCard {
+  padding: 1.5rem;
+  background: #e7e7e7;
+  height: 100%;
+  // border-radius: 5px;
+}
+
+.faqWork {
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 40px !important;
+  line-height: 64px !important;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  /* identical to box height */
+
+  color: #000000 !important;
+}
+.howItWorksMainHeaderWork {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 40px !important;
+  line-height: 64px !important;
+  /* identical to box height, or 160% */
+
+  color: #000000 !important;
+}
+.firstCardTextWork {
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 100px; /* identical to box height, or 83% */
+
+  color: #262626;
+}
+.cardHeadSmallWork {
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 45px !important;
+  /* line-height: px !important; */
+  /* identical to box height, or 250% */
+
+  color: #262626 !important;
+}
+
+.show-on-tab {
+  display: none;
+}
+
+.divDividerWork {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #322fd7;
+  height: 2px;
+  width: 15%;
+}
+.firstCardTextWorkCommonWork {
+  // padding-top: 50px;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 40px !important;
+  line-height: 55px !important;
+  /* or 137% */
+
+  color: #262626 !important;
+}
+.firstCardTextWorkCommon {
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 35px !important;
+  color: #262626 !important;
+}
+.firstCardTextWorkCommonStoreAssest {
+  padding-top: 15px;
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 35px !important;
+  line-height: 55px !important;
+  /* or 137% */
+
+  color: #262626 !important;
+}
+.firstCardTextWorkCommonProtectIP {
+  padding-top: 15px;
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 40px !important;
+  line-height: 55px !important;
+  /* or 137% */
+
+  color: #262626 !important;
+}
+.firstCardTextWorkCommonConnectWallet {
+  padding-top: 3px;
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 40px !important;
+  /* line-height: 55px !important; */
+  /* or 137% */
+
+  color: #262626 !important;
+}
+.descriptionWorksWorkFirstCard {
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 28px !important;
+  /* or 147% */
+
+  color: #262626 !important;
+}
+.descriptionWorkssecond {
+  padding-top: 20px !important;
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 28px !important;
+  /* or 147% */
+
+  color: #262626 !important;
+}
+.descriptionWorks {
+  padding-top: 20px !important;
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 28px !important;
+  /* or 147% */
+
+  color: #262626 !important;
+}
+.descriptionWorksWorkConnectWalletDescription {
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 13px !important;
+  line-height: 20px !important;
+  /* or 147% */
+
+  color: #262626 !important;
+}
+.descriptionWorksSmaller {
+  padding-top: 12px !important;
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 28px !important;
+  /* or 147% */
+
+  color: #262626 !important;
+}
+.changingMarginSmall {
+  margin-top: 30px !important;
+}
+.fifthCardDivresponsvie {
+  margin-top: 30px;
+}
+
+.faqSubTitle {
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 28px !important;
+  color: #000000 !important;
+}
+
+.ml-35 {
+  margin-top: 30px !important;
+}
+
+.fq {
+  background: aqua;
+}
+
+.inputfiled {
+  width: 363px !important;
+  border: 2px solid #fff !important;
+  border-radius: 10px;
+  color: white !important;
+  font-style: white;
+  margin-right: 35px !important;
+}
+
+.btn-chip {
+  padding: 24px 36px 24px 36px !important;
+  border-radius: 45px !important;
+}
+
+.mt-center {
+  padding-top: 50px;
+  justify-items: center !important;
+}
+
+.joinNowblack {
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 54px !important;
+  line-height: 65px !important;
+  color: #ffffff !important;
+}
+
+.subscribeBlackNotified {
+  font-family: Kern;
+  padding-bottom: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+}
+.blackListNotifiedContainer {
+  background: #000000;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.submitButtonNotified {
+  width: 145px;
+  height: 57px;
+  left: 399px;
+  border-radius: 40px;
+  margin-left: 20px;
+  margin-top: 17px;
+  font-family: Kern;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+.descriptionOFFAo {
+  font-family: Kern !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  /* line-height: px !important; */
+  color: #6b7280 !important;
+}
+
+@media only screen and (max-width: 1270px) {
+  .changingMarginSmall {
+    margin-top: 0px !important;
+  }
+  .responsiveDivWork {
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .fifthCardDivresponsvie {
+    margin-top: 0px;
+  }
+
+  .changingMarginSmall {
+    margin-top: 0px !important;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .ml-12 {
+    margin-left: 112px !important;
+  }
+  .ml-35 {
+    margin-left: 351px;
+  }
+  .mt-center {
+    padding-top: 80px !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .howItWorksCard_first {
+    height: 96%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .faqSubTitle {
+    font-size: 23px !important;
+    color: #000000 !important;
+    padding: 0rem 0 0rem;
+    height: 2rem;
+  }
+}

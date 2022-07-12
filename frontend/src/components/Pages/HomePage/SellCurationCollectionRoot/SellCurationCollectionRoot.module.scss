@@ -1,0 +1,33 @@
+.sell-curate-root {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.image-grid {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 2rem;
+}
+
+.image-div {
+  width: 25rem;
+
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .image-grid {
+    justify-content: flex-start;
+    padding-right: 0rem;
+    margin-top: 6rem;
+  }
+}

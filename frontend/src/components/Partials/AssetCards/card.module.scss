@@ -1,0 +1,130 @@
+.asset-card {
+  background: #ffffff;
+  box-shadow: 0px 4.62329px 13.8699px rgba(0, 0, 0, 0.16);
+  border-radius: 15.0219px;
+  width: 250px;
+  margin: 0.1rem auto;
+  padding-bottom: 1rem;
+  font-family: Kern !important;
+}
+
+.cardCustomLanding {
+  margin-bottom: 1rem;
+}
+
+.flowCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.artistDescription {
+  font-family: Kern !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 182% */
+
+  color: #707070;
+  padding-top: 3px;
+}
+
+.image-div {
+  max-width: 100%;
+}
+
+.flexContainerfeatured {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ethFeatured {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 14px !important;
+}
+
+.currentBidFeatured {
+  font-family: Kern !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  /* line-height: 20px; */
+  letter-spacing: 0.1em;
+  color: #7c7c7c;
+
+  /* padding-top: 3px; */
+}
+
+.bidButtonCustomCardLading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6px;
+}
+
+.buyButtonfeatured {
+  background: #6f6f6f;
+  border-radius: 22px;
+  box-shadow: none !important;
+  border: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  cursor: pointer;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: "KernRegular";
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+
+.buyButtonfeatured:hover {
+  background: #818181;
+}
+
+@media screen and (max-width: 850px) {
+  .asset-card {
+    width: 250px;
+    margin-left: 1.5rem;
+  }
+
+  .flowCont {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .asset-card {
+    width: 70%;
+    margin: 0.5rem auto;
+  }
+
+  .flowCont {
+    margin-top: 1.5rem;
+  }
+  .image-div {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .asset-card {
+    width: 80%;
+  }
+  .flowCont {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .asset-card {
+    width: 90%;
+  }
+}

@@ -1,0 +1,69 @@
+.custom-toast-container .custom-toast-message {
+    padding: 2.3125em;
+    min-height: 7.8125em;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+}
+.custom-toast-message.success-message {
+    background-color: #246b47;
+}
+.custom-toast-message.error-message {
+    background-color: #e74c3c !important;
+}
+.custom-toast-container .toaster-message-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.custom-toast-container .toaster-text {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    line-height: 1.8125em;
+    font-weight: 400;
+    flex-basis: 90%;
+    margin-left: 19px;
+    color: white;
+}
+.message-icon-wrapper {
+    position: relative;
+    width: 3.125em;
+    height: 3.125em;
+    flex-basis: 10%;
+}
+.success-mark,
+.close-mark {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 3.125em;
+    width: 3.125em;
+}
+.success-mark:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 17px;
+    top: 7px;
+    width: 11px;
+    height: 25px;
+    border: solid #246b47;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.close-mark:before,
+.close-mark:after {
+    position: absolute;
+    left: 23px;
+    top: 10px;
+    content: " ";
+    height: 29px;
+    width: 4px;
+    background-color: #e74c3c;
+}
+.close-mark:before {
+    transform: rotate(45deg);
+}
+.close-mark:after {
+    transform: rotate(-45deg);
+}

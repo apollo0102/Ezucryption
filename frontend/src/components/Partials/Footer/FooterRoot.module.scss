@@ -1,0 +1,388 @@
+.footer-root {
+  background: #e7e7ea;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 70px 1rem;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  .text {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: 0.800000011920929px;
+    text-align: left;
+  }
+
+  .image {
+    height: 90px;
+    width: 87px;
+    left: 1299px;
+    top: 63px;
+    border-radius: 0px;
+  }
+}
+
+.form-div-root {
+  padding: 3rem 0;
+
+  .side-text {
+    font-family: Kern;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-right: 18rem;
+  }
+
+  .nav-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    .nav {
+      font-family: Kern;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0.1599999964237213px;
+      text-align: left;
+      margin: 0.3rem 0;
+    }
+  }
+
+  .form-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 3rem;
+    .header {
+      font-family: Kern;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0.1599999964237213px;
+      padding-bottom: 0.3rem;
+    }
+
+    .form {
+      width: 100%;
+    }
+
+    .arrow {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+.footer-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  margin-top: 2rem;
+  border-top: 1px rgb(54, 53, 53) solid;
+  padding-top: 0.9rem;
+
+  .icon {
+    padding-right: 1.2rem;
+  }
+
+  .footer-note {
+    font-family: Kern;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #6f6f6f;
+  }
+
+  .footer-nav-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Kern;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+
+    .nav {
+      padding-left: 2rem;
+    }
+  }
+}
+
+.mobi-footer-note {
+  font-family: Kern;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #6f6f6f;
+  display: none;
+  width: 100%;
+  position: relative;
+
+  .go-up {
+    background-color: black;
+    padding: 0.3rem 0.3rem 0.2rem;
+    color: #e7e7ea;
+    user-select: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -1rem;
+    right: 0;
+    scroll-behavior: smooth !important;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .logo-div {
+    .text {
+      font-size: 70px;
+    }
+  }
+  .form-div-root {
+    padding: 2rem 0;
+
+    .side-text {
+      padding-right: 6rem;
+    }
+
+    .nav-div {
+      .nav {
+        margin: 0.2rem 0;
+      }
+    }
+
+    .form-div {
+      padding-left: 1rem;
+      .header {
+        font-size: 1.3rem;
+      }
+
+      .arrow {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .footer-foot {
+    margin-top: 1rem;
+    padding-top: 0.7rem;
+
+    .icon {
+      padding-right: 0.8rem;
+    }
+
+    .footer-note {
+      font-size: 12px;
+    }
+
+    .footer-nav-div {
+      font-size: 12px;
+
+      .nav {
+        padding-left: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .footer-root {
+    padding: 2rem;
+  }
+  .logo-div {
+    .text {
+      font-size: 70px;
+    }
+  }
+  .form-div-root {
+    padding: 1rem 0;
+    align-items: center;
+
+    .side-text {
+      padding-right: 8rem;
+    }
+
+    .nav-div {
+      padding-top: 1.5rem;
+      .nav {
+        margin: 0.2rem 0;
+      }
+    }
+
+    .form-div {
+      padding-top: 1.5rem;
+      padding-left: 0rem;
+    }
+  }
+
+  .footer-foot {
+    margin-top: 1rem;
+    padding-top: 0.7rem;
+
+    .icon {
+      padding-right: 0.8rem;
+    }
+
+    .footer-note {
+      font-size: 12px;
+      display: none;
+    }
+
+    .footer-nav-div {
+      font-size: 12px;
+
+      .nav {
+        padding-left: 1.8rem;
+      }
+    }
+  }
+
+  .mobi-footer-note {
+    font-size: 12px;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-root {
+    padding: 2rem 1rem;
+  }
+
+  .logo-div {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    .text {
+      font-size: 60px;
+    }
+    .image {
+      width: 7rem;
+    }
+  }
+  .form-div-root {
+    padding: 2rem 0;
+    align-items: center;
+
+    .side-text {
+      padding-right: 0rem;
+    }
+
+    .nav-div {
+      padding-top: 1.5rem;
+      .nav {
+        margin: 0.4rem 0;
+      }
+    }
+  }
+
+  .footer-foot {
+    margin-top: 1rem;
+    padding-top: 0.7rem;
+
+    .icon {
+      padding-right: 0.5rem;
+    }
+
+    .footer-nav-div {
+      font-size: 10px;
+
+      .nav {
+        padding-left: 1rem;
+      }
+    }
+  }
+
+  .mobi-footer-note {
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-top: 1rem;
+    line-height: 1rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .footer-root {
+    padding: 2rem 1rem;
+  }
+
+  .logo-div {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    .text {
+      font-size: 50px;
+    }
+    .image {
+      width: 7rem;
+    }
+  }
+  .form-div-root {
+    padding: 2rem 0;
+    align-items: center;
+
+    .side-text {
+      padding-right: 0rem;
+    }
+
+    .nav-div {
+      padding-top: 1.5rem;
+      .nav {
+        margin: 0.4rem 0;
+      }
+    }
+  }
+
+  .footer-foot {
+    margin-top: 1rem;
+    padding-top: 0.7rem;
+
+    .icon {
+      padding-right: 0.5rem;
+    }
+
+    .footer-nav-div {
+      font-size: 10px;
+
+      .nav {
+        padding-left: 1rem;
+      }
+    }
+  }
+
+  .mobi-footer-note {
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-top: 1rem;
+    line-height: 1rem;
+  }
+}

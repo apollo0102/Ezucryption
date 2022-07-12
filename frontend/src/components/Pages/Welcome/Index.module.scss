@@ -1,0 +1,30 @@
+.welcome-root {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero-div {
+  margin-bottom: 5rem;
+}
+.waitlist-div {
+  margin-top: 5rem;
+}
+
+.card-root {
+  margin-top: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+}
+
+@media screen {
+}

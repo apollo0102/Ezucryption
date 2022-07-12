@@ -1,0 +1,100 @@
+.top-card-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .name {
+    font-family: Kern;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+
+  .price {
+    font-family: Kern;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0.2rem;
+  }
+
+  .btn-div {
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .btn {
+      color: #333333;
+      border-radius: 20px;
+      border: #333333 1px solid;
+      border: 0.67px solid;
+      padding: 0.3rem 2rem;
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+.greySwirlHome {
+  // width: 100% !important;
+  height: 180px !important;
+  width: 177px !important;
+  background: #dfdfdf;
+  border-radius: 50%;
+  bottom: 15px;
+  // padding-left: 12px;
+  position: relative;
+}
+
+.blueSwirlHome {
+  border-radius: 92.6826px;
+  border: 0.936588px solid #dfdfdf;
+
+  height: inherit;
+  position: unset !important;
+  margin-top: 14px;
+  padding-left: 12px;
+}
+.greySwirlHome > span {
+  overflow: initial !important;
+}
+.imageHome {
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 4px !important;
+  margin-top: 12px !important;
+  object-fit: cover;
+  width: 171.99px;
+  height: 175.72px;
+  position: relative !important;
+}
+.greySwirl {
+  // width: 100% !important;
+  height: 181px !important;
+  width: 177px !important;
+  background: #dfdfdf;
+  border-radius: 50%;
+  bottom: 12px;
+  // padding-left: 12px;
+  position: relative;
+}
+
+.blueSwirl {
+  border-radius: 92.6826px;
+  border: 0.936588px solid #9cd0d5;
+
+  height: inherit;
+  position: unset !important;
+  margin-top: 14px;
+  padding-left: 12px;
+}
+.greySwirl > span {
+  overflow: initial !important;
+}

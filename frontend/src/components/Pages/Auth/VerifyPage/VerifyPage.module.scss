@@ -1,0 +1,183 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex: 1;
+    min-height: 90vh;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #f7f9fa;
+    flex: 1;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 30px;
+}
+
+.logoText {
+    width: 169px;
+    height: 48px;
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.assetBoxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 80px;
+    gap: 30px;
+}
+
+.joiningText {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #37352f;
+    text-align: left;
+}
+
+.line {
+    border: 1px solid #000000;
+    width: 40%;
+    height: 1px;
+}
+
+.sectionBreakContainer {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orText {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #37352f;
+}
+
+.socialIconContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+}
+
+.verifySuccessText {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #6f6f6f;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        background: #f7f9fa;
+    }
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        flex: 1;
+    }
+    .leftMainContainer {
+        margin: 0px;
+    }
+    .leftContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #ffff;
+        flex: 1;
+        order: 2;
+        margin: 0px 80px 0px 80px;
+        padding-bottom: 80px;
+    }
+    .rightContainer {
+        display: flex;
+        background-color: #ffff;
+        flex-direction: column;
+        margin: 80px 80px 0px 80px;
+        flex: 1;
+        gap: 30px;
+        order: 1;
+        padding-bottom: 30px;
+        padding: 80px;
+    }
+    .logoContainer {
+        display: none;
+    }
+    .footerContainer {
+        margin: 0px 80px 0px 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        background: #f7f9fa;
+    }
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        flex: 1;
+    }
+    .leftMainContainer {
+        margin: 0px;
+    }
+    .leftContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #ffff;
+        flex: 1;
+        order: 2;
+        margin: 0px 20px 0px 20px;
+        padding-bottom: 20px;
+    }
+    .rightContainer {
+        display: flex;
+        background-color: #ffff;
+        flex-direction: column;
+        margin: 20px 20px 0px 20px;
+        flex: 1;
+        gap: 10px;
+        order: 1;
+        padding-bottom: 10px;
+        padding: 20px;
+    }
+    .logoContainer {
+        display: none;
+    }
+    .footerContainer {
+        margin: 0px 20px 0px 20px;
+    }
+}

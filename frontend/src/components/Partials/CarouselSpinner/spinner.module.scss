@@ -1,0 +1,60 @@
+.asset-card-row-root {
+  margin: 0 auto;
+}
+
+.title-div {
+  text-align: right;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: left;
+  padding-right: 1.4rem;
+  padding-bottom: 1rem;
+
+  .title {
+    font-family: Kern;
+    font-size: 1.5rem;
+    margin-bottom: 0.4rem;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  .view {
+    font-family: Kern;
+    font-size: 1rem;
+    color: #707070;
+    cursor: pointer;
+  }
+}
+
+.arrow {
+  color: #D8D8D8;
+  font-size: 1.8rem;
+  width: 100%;
+  height: 42.7px;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1030px) {
+  .asset-card-row-root {
+    width: 98%;
+    min-width: 98%;
+    max-width: 98%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .asset-card-row-root {
+    padding: 1rem;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .title-div {
+    align-items: center;
+    margin-bottom: 0;
+  }
+}

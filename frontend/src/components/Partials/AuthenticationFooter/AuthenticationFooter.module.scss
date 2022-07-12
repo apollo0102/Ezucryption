@@ -1,0 +1,41 @@
+
+.mainContainer {
+    background-color: #fff;
+    height: 10vh;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+
+}
+
+.text {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #6F6F6F; 
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+// @media screen and (max-width: 450px) { 
+//     .container {
+//         display: flex;
+//     }
+// }

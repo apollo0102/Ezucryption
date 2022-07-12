@@ -1,0 +1,48 @@
+
+.mainContainer {
+    background-color: #fff;
+    height: 72px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 100px;
+
+}
+
+.text {
+    font-family: Kern;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #6F6F6F; 
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        flex-direction: row;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 600px) { 
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+

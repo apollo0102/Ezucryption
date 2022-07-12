@@ -1,0 +1,219 @@
+.app-bar-home-root {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 999;
+  padding: 1rem 0rem;
+  margin-top: 0rem;
+}
+
+.app-bar-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-bar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+
+  .text {
+    margin-left: 1rem;
+    opacity: 1;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Kern;
+  }
+
+  .text:hover {
+    opacity: 0.8;
+  }
+  .text:active {
+    opacity: 0.5;
+  }
+
+  .logo {
+    width: 2rem;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .logo:hover {
+    transform: scale(1.08);
+    opacity: 0.8;
+  }
+  .logo:active {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+}
+
+.app-bar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 22vw;
+  margin-left: 9vw;
+}
+
+.link {
+  text-decoration: none;
+  align-items: center;
+  font-family: Kern;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  user-select: none;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.link:hover {
+  opacity: 0.6;
+}
+.link:active {
+  opacity: 0.4;
+}
+
+.app-bar-register {
+  display: flex;
+  .reg-btn {
+    background-color: black;
+    color: white;
+    margin-left: 1rem;
+    padding: 0 0.8rem;
+    font-size: 16px;
+    height: 2.3rem;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+}
+
+.mobi-menu {
+  display: none;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.drawer-root {
+  display: none;
+}
+
+//mobile dropdown
+.mobi-navbar-root {
+  padding: 1.5rem 1rem;
+  .mobi-nav {
+    .link {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+    }
+  }
+
+  .mobi-reg-btn {
+    background-color: black;
+    color: white;
+    margin: 2rem 0;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1050px) {
+  .app-bar-home-root {
+    padding: 0.7rem 1rem;
+  }
+
+  .app-bar-nav {
+    width: 32vw;
+    margin-left: 8vw;
+  }
+
+  .link {
+    font-size: 1rem;
+  }
+
+  .text {
+    font-size: 28px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 900px) {
+  .drawer-root {
+    display: block;
+  }
+  .app-bar-home-root {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 8px 32px 0 rgba(197, 200, 238, 0.17);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .app-bar-nav,
+  .reg-btn {
+    display: none;
+  }
+  .mobi-menu {
+    display: block;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .app-bar-home-root {
+    margin-top: 0;
+    padding: 1rem 0.6rem;
+  }
+  .app-bar-nav,
+  .reg-btn {
+    display: none;
+  }
+
+  .icon {
+    font-size: 1.8rem;
+  }
+
+  .app-bar-left {
+    .text {
+      font-size: 2rem;
+      margin-left: 0.7rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+}
+@media only screen and (max-width: 325px) {
+  .app-bar-left {
+    .text {
+      font-size: 1.6rem;
+    }
+  }
+
+  .icon {
+    font-size: 1.2rem;
+  }
+
+  .app-bar-logo {
+    .logo {
+      width: 10rem;
+    }
+  }
+}
